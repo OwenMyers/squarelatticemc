@@ -248,8 +248,6 @@ int main( int argc, char *argv[])
         {
             for (int k = 0; k < N_update; k++)
             {
-
-
                 //est.apply_loop_update();
                 modelObj.apply_local_update();
                 //if (do_gap_calc){update_count++;}

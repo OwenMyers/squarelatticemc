@@ -26,7 +26,6 @@ void DimerHorizontalStructureFactor::do_measurement()
                                         FFTW_ESTIMATE);
 
 
-
     for (int alpha = 0; alpha < length; alpha++)
     {
         for (int beta = 0; beta < height; beta ++)
